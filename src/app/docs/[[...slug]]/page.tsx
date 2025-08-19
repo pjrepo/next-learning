@@ -11,7 +11,7 @@ const Docs = async ({ params }: { params: Promise<{ slug: string[] }> }) => {
     return <h1>Viewing docs for feature {slug[0]}</h1>;
   }
 
-  return <div>Docs Home Page</div>;
+  return <h1>Docs Home Page</h1>;
 };
 
 export default Docs;
